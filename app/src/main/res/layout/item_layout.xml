@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/foreground_item_undo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:layout_editor_absoluteY="25dp">
+
+    <com.lsl.wordhelper.view.RoundBgTextView
+        android:id="@+id/tv_item_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="G"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_explain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_original"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Good"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_item_explain"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_date"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_icon" />
+
+    <TextView
+        android:id="@+id/tv_item_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0908"
+        android:textAlignment="center"
+        android:textColor="@color/text_color_date"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_item_original"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_original" />
+
+    <TextView
+        android:id="@+id/tv_item_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="265dp"
+        android:text="释义"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_icon" />
+
+    <TextView
+        android:id="@+id/tv_item_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="很好"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_icon"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_explain" />
+
+</android.support.constraint.ConstraintLayout>

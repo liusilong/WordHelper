@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundBgTextView">
+        <attr name="rbt_color" format="integer" />
+    </declare-styleable>
+</resources>

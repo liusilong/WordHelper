@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <!--已完成的背景-->
+    <include
+        layout="@layout/item_done_background"
+        android:visibility="gone" />
+
+    <!--未完成的背景-->
+    <include
+        layout="@layout/item_undo_background"
+        android:visibility="gone" />
+
+    <!--前景-->
+    <!--<include layout="@layout/item_undo_foreground" />-->
+    <include layout="@layout/item_layout" />
+
+</FrameLayout>

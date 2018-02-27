@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D9453D</color>
+    <color name="colorPrimaryDark">#D9453D</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="checked_color">#FF4081</color>
+    <color name="uncheck_color">#303F9F</color>
+    <color name="gmail_red_color">#D9453D</color>
+    <color name="text_color_date">#3570F5</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_window_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Word Helper"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_window_original"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_window_title"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Good"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_window_original"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:text="释义:"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/et_window_translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_translate"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_window_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/et_window_translate"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_window_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_window_translate"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@id/btn_window_ok"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
