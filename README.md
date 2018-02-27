@@ -5,8 +5,9 @@
 * 使用 Window 作为弹出窗口（类似于 Google 翻译弹出效果）
 * 使用 RecyclerView，其中包括 Item 的滑动删除及撤销功能
 
-功能效果如下：
+#### 效果如下：
 
+[效果连接](http://upload-images.jianshu.io/upload_images/995581-3009e0c97cc8714b.gif?imageMogr2/auto-orient/strip)
 ![img](https://github.com/liusilong/WordHelper/blob/master/img/img.gif)
 
 
