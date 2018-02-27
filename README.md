@@ -7,7 +7,8 @@
 
 #### 效果如下：
 
-[效果连接](http://upload-images.jianshu.io/upload_images/995581-3009e0c97cc8714b.gif?imageMogr2/auto-orient/strip)
+[演示链接](http://upload-images.jianshu.io/upload_images/995581-3009e0c97cc8714b.gif?imageMogr2/auto-orient/strip)
+
 ![img](https://github.com/liusilong/WordHelper/blob/master/img/img.gif)
 
 
