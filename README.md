@@ -7,7 +7,7 @@
 
 功能效果如下：
 
-http://upload-images.jianshu.io/upload_images/995581-3009e0c97cc8714b.gif?imageMogr2/auto-orient/strip
+![img](https://github.com/liusilong/WordHelper/blob/master/img/img.gif)
 
 
 
